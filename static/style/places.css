@@ -1,0 +1,40 @@
+#staticMap {
+	width: 100%;
+    height: 100%;
+}
+
+#map {
+	width: 100%;
+    height: 100%;
+}
+
+#jsMap {
+	width: 100%;
+    height: 100%;
+}
+
+.map_image {
+	position: relative;
+	width:100%;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+#map, #jsMap {
+	margin: 0;
+	padding: 1px;
+	height: 99.8%;
+	width: 99.8%;
+}
+
+.milesCounter {
+	color: blue;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 15%;
+	z-index: 1;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>VS.com | {% block title %}{% endblock %}</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/style/main.css">
+	{% block head %}{% endblock %}
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-default">
+		  	<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="/">VittorioSomaschini.com</a>
+		    	</div>
+		    	<div>
+		      	<ul class="nav navbar-nav navbar-right">
+		        	<li class="{% if active=='home' %}active{%endif %}"><a href="/">Home</a></li>
+		        	<li class="{% if active=='places' %}active{%endif %}"><a href="/places">Places</a></li>
+		        	<li class="{% if active=='travels' %}active{%endif %}"><a href="/travels">Travels</a></li>
+		        	<li class="{% if active=='blog' %}active{%endif %}"><a href="/blog">Blog</a></li>
+		      	</ul>
+		    	</div>
+		  	</div>
+		</nav>
+		{% block rows %}
+		{% endblock %}
+	</div>
+{% block content %}
+{% endblock %}
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</body>
+{% block footer %}
+{% endblock %}
+</html>

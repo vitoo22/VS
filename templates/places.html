@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Places
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="static/style/places.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyD9p_TkhTFq9iG2Me_YSN3k7dzDl8VTZas"></script>
+<script type="text/javascript" src="static/js/locations.js"></script>
+<script type="text/javascript" src="static/js/map.js"></script>
+
+{% endblock %}
+
+{% block content %} 
+<!-- JAVASCRIPT Responsive Google Map -->
+<script>mainMap();</script>
+<!-- END OF javascript map -->
+
+<div class="milesCounter"><p id="milesCounter"></div>
+<div id="map">
+	<div id="staticMap" >
+		<img alt="Google Maps static map" class="map_image" src="https://maps.googleapis.com/maps/api/staticmap?center=0,0&zoom=1&size=500x360&scale=2">
+	</div>
+</div>
+{% endblock %}
+
+{% block footer %}
+<div id="map-canvas"></div>
+<script type="text/javascript" src="static/js/miles.js"></script>
+    <!-- REMOVE static map && prepend jsMap div -->
+    <script>
+        removeStaticMap();
+    </script>
+{% endblock %}
