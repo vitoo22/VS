@@ -17,9 +17,9 @@ def map():
 def travels():
 	return render_template('travels.html', active="travels")
 
-@app.route('/blog')
-def blog():
-	return render_template('index.php', active="blog")
+#@app.route('/blog')
+#def blog():
+	#return render_template('index.php', active="blog")
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
