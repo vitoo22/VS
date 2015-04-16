@@ -74,11 +74,16 @@ function mainMap() {
 			}
 		  locationsList.push(location[0]);
 
+		  	var icon = { 
+		  		url:"https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png",
+		  		scaledSize: new google.maps.Size(18, 18)
+		  	}
 
 			var markerLatLng = new google.maps.LatLng(locationLat, locationLng);
 			var marker = new google.maps.Marker({
 				position: markerLatLng,
 				map: map,
+				icon: icon,
 				animation: google.maps.Animation.DROP,
 				// title: location[0],
 				// zIndex: location[4]
