@@ -1,6 +1,6 @@
 var myLocations = [
-	["Milan", "Italy", 52.233333, 21.016667, "plane"],
-	["Warsaw", "Poland", 45.4667, 9.1667, "plane"],
+	["Milan", "Italy", 45.4667, 9.1667, "plane"],
+	["Warsaw", "Poland", 52.233333, 21.016667, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
 	["Sydney", "Australia", -33.8600, 151.2094, "plane"],
 	["Melbourne", "Australia", -37.8136, 144.9631, "plane"],
