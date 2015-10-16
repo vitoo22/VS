@@ -1,6 +1,12 @@
 var myLocations = [
+	["Willemstad", "Curaçao", 12.1167, -68.9333, "plane"],
+	["Amsterdam", "Holland", 52.3667, 4.9000, "plane"],
+	["London", "United Kingdom", 51.5072, 0.1275, "plane"],
+	["Milan", "Italy", 45.4667, 9.1667, "train"],
+	["Geneve", "Switzerland", 46.2000, 6.1500, "plane"],
+	["Mykonos", "Greece", 37.4500, 25.3500, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "car"],
-	["Antibes", "France", 43.56241, 7.12777, "car"],
+	["Antibes", "France", 43.56241, 7.116667, "car"],
 	["Milan", "Italy", 45.4667, 9.1667, "car"],
 	["Camogli", "Italy", 44.348397, 9.155758, "car"],
 	["Milan", "Italy", 45.4667, 9.1667, "car"],
