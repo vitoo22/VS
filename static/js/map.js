@@ -76,7 +76,7 @@ function mainMap() {
 
 		  	var icon = { 
 		  		url:"https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png",
-		  		scaledSize: new google.maps.Size(18, 18)
+		  		scaledSize: new google.maps.Size(15, 15)
 		  	}
 
 			var markerLatLng = new google.maps.LatLng(locationLat, locationLng);
