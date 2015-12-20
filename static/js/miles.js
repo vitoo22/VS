@@ -25,8 +25,12 @@ function distanceCalculator() {
     totalD = (totalD + d);
     console.log(i, myLocations[i][0],myLocations[i+1][0], d)
   }
-  document.getElementById('milesCounter').innerHTML = totalD.toLocaleString('en-IN', { maximumFractionDigits: 0 }) + " km";
-  console.log(totalD.toFixed(0));
+  // Creating a totalD variable with no decimal digits and locally formatted
+  totalDToDisplay = parseInt(totalD).toLocaleString()
+
+  // Setting the innerHTML of the milesCounter div
+  document.getElementById('milesCounter').innerHTML = totalDToDisplay + " km";
+  console.log(totalD);
 
   var myLocationsInJSON = JSON.stringify(myLocations);
   // console.log(myLocationsInJSON);
