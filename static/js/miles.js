@@ -25,7 +25,7 @@ function distanceCalculator() {
     totalD = totalD + d;
     console.log(i, myLocations[i][0],myLocations[i+1][0], d)
   }
-  document.getElementById('milesCounter').innerHTML = totalD.toFixed(0);
+  document.getElementById('milesCounter').innerHTML = totalD.toFixed(0) + " km";
   console.log(totalD.toFixed(0));
 
   var myLocationsInJSON = JSON.stringify(myLocations);
