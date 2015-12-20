@@ -22,10 +22,10 @@ function distanceCalculator() {
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
     var d = R * c;
-    totalD = totalD + d;
+    totalD = (totalD + d);
     console.log(i, myLocations[i][0],myLocations[i+1][0], d)
   }
-  document.getElementById('milesCounter').innerHTML = totalD.toFixed(0) + " km";
+  document.getElementById('milesCounter').innerHTML = totalD.toLocaleString('en-IN', { maximumFractionDigits: 0 }) + " km";
   console.log(totalD.toFixed(0));
 
   var myLocationsInJSON = JSON.stringify(myLocations);
