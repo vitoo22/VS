@@ -1,4 +1,5 @@
 var myLocations = [
+	["Livigno", "Italy", 46.5363, 10.13348, "car"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
 	["Manchester", "United Kingdom", 53.4667, -2.2333, "train"],
 	["Crewe", "United Kingdom", 53.0990, -2.4400, "car"],
