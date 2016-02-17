@@ -1,6 +1,10 @@
 var myLocations = [
-	["Milan", "Italy", 45.4667, 9.1667, "car"],
-	["Napoli", "Italy", 40.833333, 14.25, "car"],
+	["Milan", "Italy", 45.4667, 9.1667, "plane"],
+	["Vilnius", "Lithuania", 54.6891, 25.2798, "plane"],
+	["Kaunas", "Lithuania", 54.8972, 23.8861, "train"],
+	["Vilnius", "Lithuania", 54.6891, 25.2798, "plane"],
+	["Milan", "Italy", 45.4667, 9.1667, "train"],
+	["Napoli", "Italy", 40.833333, 14.25, "train"],
 	["Milan", "Italy", 45.4667, 9.1667, "car"],
 	["Livigno", "Italy", 46.5363, 10.13348, "car"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
