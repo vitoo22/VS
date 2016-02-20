@@ -1,4 +1,6 @@
 var myLocations = [
+	["Da Nang", "Vietnam", 16.0667, 108.2333, "plane"],
+	["Ho Chi Minh City", "Vietnam", 10.7500, 106.6667, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
 	["Vilnius", "Lithuania", 54.6891, 25.2798, "plane"],
 	["Kaunas", "Lithuania", 54.8972, 23.8861, "train"],
