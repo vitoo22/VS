@@ -1,6 +1,9 @@
 var myLocations = [
-	["Koh Lanta", "Thailand", 7.583333, 99.05, "plane"],
+	["Bali", "Indonesia", -8.655833, 115.134167, "plane"],
 	["Bangkok", "Thailand", 13.75, 100.466667, "plane"],
+	["Koh Lanta", "Thailand", 7.583333, 99.05, "plane"],
+	["Bangkok", "Thailand", 13.75, 100.466667, "boat"],
+	["Krabi", "Thailand", 8.0725700, 98.9105200, "plane"],
 	["Da Nang", "Vietnam", 16.0667, 108.2333, "plane"],
 	["Ho Chi Minh City", "Vietnam", 10.7500, 106.6667, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
