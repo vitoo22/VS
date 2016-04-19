@@ -1,4 +1,5 @@
 var myLocations = [
+	["Milan", "Italy", 45.4667, 9.1667, "plane"],
 	["Bali", "Indonesia", -8.655833, 115.134167, "plane"],
 	["Bangkok", "Thailand", 13.75, 100.466667, "plane"],
 	["Koh Lanta", "Thailand", 7.583333, 99.05, "plane"],
