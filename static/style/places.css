@@ -26,3 +26,11 @@ body, html {
 	margin-left: 15%;
 	z-index: 1;
 }
+
+.locationNumber {
+	color: blue;
+	position: absolute;
+	margin-top: 3%;
+	margin-left: 15%;
+	z-index: 1;
+}

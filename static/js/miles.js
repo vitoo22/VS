@@ -37,3 +37,17 @@ function distanceCalculator() {
 }
 
 distanceCalculator();
+
+function locationNumber(){
+  var locationArray = ["Milan"];
+  var locationCount = 0;
+  for (i=0; i < myLocations.length; i++) {
+    if (locationArray.indexOf(myLocations[i][0]) == -1) {
+      locationArray.push(myLocations[i][0]);
+      locationCount += 1;
+    }
+  }
+  document.getElementById('locationNumber').innerHTML = "Total locations: " + locationCount;
+}
+
+locationNumber();
