@@ -1,4 +1,9 @@
 var myLocations = [
+	["Milan", "Italy", 45.4667, 9.1667, "plane"],
+	["London", "United Kingdom", 51.5072, -0.1275, "plane"],
+	["Eastbourne", "Italy", 50.7680, -0.2905, "bus"],
+	["Brighton", "United Kingdom", 50.8225, -0.1372, "train"],
+	["London", "United Kingdom", 51.5072, -0.1275, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "car"],
 	["Forte dei Marmi", "Italy", 43.9638800, 10.1747800, "car"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
