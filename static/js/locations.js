@@ -1,4 +1,6 @@
 var myLocations = [
+	["Playa del Carmen", "Mexico", 20.6296, -87.0739, "car"],
+	["Cancun", "Mexico", 21.1606, -86.8475, "plane"],
 	["Buenos Aires", "Argentina", -34.5901790, -58.4297980, "plane"],
 	["Tigre", "Argentina", -34.4251, -58.5797, "train"],
 	["Buenos Aires", "Argentina", -34.5901790,-58.4297980, "plane"],
