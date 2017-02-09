@@ -1,7 +1,7 @@
 var myLocations = [
-	["Miami", "United States", 25.844525, -80.145617, "plane"],
+	["North Bay Village, Miami", "United States", 25.844525, -80.145617, "plane"],
 	["San Juan", "Puerto Rico", 18.451080, -66.053999, "plane"],
-	["Miami", "United States", 25.782745, -80.263154, "plane"],
+	["Fairfield Inn, Miami", "United States", 25.782745, -80.263154, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
 	["Pisa", "Italy", 43.7228, 10.4017, "plane"],
 	["Sliema", "Malta", 35.9122, 14.5042, "plane"],
