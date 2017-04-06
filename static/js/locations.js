@@ -1,4 +1,11 @@
 var myLocations = [
+	["Downtown, Miami", "United States", 25.8661054,-80.127422, "bus"],
+	["Everglades, Fort Lauderdale", "United States", 26.0604506,-80.4446218, "bus"],
+	["Downtown, Miami", "United States", 25.8661054,-80.127422, "car"],
+	["Key West", "United States", 24.546538, -81.797504, "car"],
+	["Downtown, Miami", "United States", 25.8661054,-80.127422, "car"],
+	["North Beach, Miami", "United States", 25.7716748,-80.1896907, "car"],
+	["Downtown, Miami", "United States", 25.8661054,-80.127422, "car"],
 	["North Bay Village, Miami", "United States", 25.844525, -80.145617, "plane"],
 	["San Juan", "Puerto Rico", 18.451080, -66.053999, "plane"],
 	["Fairfield Inn, Miami", "United States", 25.782745, -80.263154, "plane"],
