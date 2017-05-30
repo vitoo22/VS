@@ -1,7 +1,12 @@
 var myLocations = [
+	["Barcelona", "Spain", 41.380226, 2.152250, "car"],
+	["Badalona", "Spain", 41.453861, 2.258502, "car"],
+	["Barcelona", "Spain", 41.380226, 2.152250, "car"],
+	["Masia La Plana", "Spain", 41.926086, 1.886571, "car"],
 	["Barcelona", "Spain", 41.380226, 2.152250, "plane"],
 	["Milan", "Italy", 45.4667, 9.1667, "plane"],
 	["Barcelona", "Spain", 41.380226, 2.152250, "plane"],
+	["Coral Gables, Miami", "United States", 25.742491, -80.250878, "car"],
 	["Coral Gables, Miami", "United States", 25.742491, -80.250878, "car"],
 	["Downtown, Miami", "United States", 25.7716748, -80.1896907, "car"],
 	["Everglades, Fort Lauderdale", "United States", 26.0604506,-80.4446218, "car"],
